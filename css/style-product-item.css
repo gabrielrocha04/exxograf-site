@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+header nav .container-fluid-navbar {
+    width: 100%;
+    height: 15vh;
+    background-color: blue;
+    margin-top: 1.2rem;
+}
+
+.container-fluid-item {
+    width: 95%;
+    height: auto;
+    background-color: rgb(21, 194, 228);
+    margin: 5% auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-fluid-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-fluid-item #container-fluid-image {
+    width: 150%;
+}
+.container-fluid-item #container-fluid-image img{
+    width: 100%;
+}
+
+.container-fluid-item .container-fluid-introduction{
+    color: brown;
+    align-self: flex-start;
+    text-align: justify;
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid-item .container-fluid-introduction #text-intro {
+  margin-bottom: 2em;
+}
+
+.container-fluid-item .container-fluid-introduction #button-link{
+    width: 40vw;
+    height: auto;
+    border-radius: 45px;
+    background-color: rgb(12, 104, 122);
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.container-fluid-item .container-fluid-introduction #button-link a{
+    color: rgb(251, 251, 251);
+}
+
+.container-fluid-item .container-fluid-introduction a:link{
+    text-decoration: none;
+}
+
+.container-fluid-description{
+    width: 95%;
+    height: auto;
+    background-color: rgb(21, 194, 228);
+    margin: 5% auto 0 auto;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.form-contact{
+    width: auto;
+    height: auto;
+    margin: 30px;
+}
+
+footer .container-fluid-footer{
+    width: 100%;
+    height: 25vh;
+    border-style: solid none none none;
+    border-color: aqua;
+    margin-top: 15%;
+}

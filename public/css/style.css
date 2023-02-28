@@ -108,34 +108,3 @@ ul {
 .container-fluid-maps {
     margin-top: 8%;
 }
-
-/**FOOTER**/
-footer .container-fluid-footer {
-    width: 100%;
-    height: 25vh;
-    border-style: solid none none none;
-    border-color: aqua;
-    margin-top: 75px;
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1em;
-    font-family:'Inter', sans-serif;
-}
-footer .container-fluid-footer .container-fluid-logo {
-    width: auto;
-    height: auto;
-}
-
-footer .container-fluid-footer .container-fluid-baseboard img{
-    width: 20px;
-    height: 20px;
-}
-
-footer .container-fluid-footer .container-fluid-baseboard #container-fluid-contact-item{
-    display: flex;   
-}
-footer .container-fluid-footer .container-fluid-baseboard #container-fluid-socialmedia-item{
-    display: flex;   
-}

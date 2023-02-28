@@ -2,13 +2,6 @@ body {
     margin: 0;
 }
 
-header nav .container-fluid-navbar {
-    width: 100%;
-    height: 15vh;
-    background-color: blue;
-    margin-top: 1.2rem;
-}
-
 .container-fluid-item {
     width: 95%;
     height: auto;
@@ -76,12 +69,4 @@ header nav .container-fluid-navbar {
     width: auto;
     height: auto;
     margin: 30px;
-}
-
-footer .container-fluid-footer{
-    width: 100%;
-    height: 25vh;
-    border-style: solid none none none;
-    border-color: aqua;
-    margin-top: 15%;
 }

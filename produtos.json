@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "nome": "Cartão de Visita",
+      "descricao": "Um cartão de visita personalizado com suas informações de contato",
+      "imagem": "/img/cartao_de_visita.jpg"
+    },
+    {
+      "nome": "Adesivo",
+      "descricao": "Um adesivo personalizado com uma imagem ou mensagem de sua escolha",
+      "imagem": "/img/adesivo.jpg"
+    },
+    {
+      "nome": "Banner",
+      "descricao": "Um banner personalizado com uma imagem ou mensagem de sua escolha",
+      "imagem": "/img/banner.jpg"
+    },
+    {
+      "nome": "Adesivo Perfurado",
+      "descricao": "Um adesivo perfurado que pode ser aplicado em janelas sem obstruir a visão",
+      "imagem": "/img/adesivo_perfurado.jpg"
+    },
+    {
+      "nome": "Lona com Ilhós",
+      "descricao": "Uma lona com ilhós para ser usada como banner ou faixa",
+      "imagem": "/img/lona_com_ilhos.jpg"
+    },
+    {
+      "nome": "Faixa",
+      "descricao": "Uma faixa personalizada com uma imagem ou mensagem de sua escolha",
+      "imagem": "/img/faixa.jpg"
+    }
+  ]
+}

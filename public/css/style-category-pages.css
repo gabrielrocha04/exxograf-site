@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container-fluid-bestsellers {
+    width: 100%;
+    height: auto;
+    /**background-color: rgba(11, 70, 98, 0.286);**/
+    margin-top: 5em;
+    font-size: 24px;
+    font-family: 'Gluten', cursive;
+    text-align: center;
+}
+
+.container-fluid-bestsellers-items {
+    width: 95%;
+    height: auto;
+    margin: 5% auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-fluid-bestsellers-items #container-fluid-product-item img {
+    width: 80%;
+    height: auto;
+    /**background-color: rgb(218, 30, 162);**/
+    transition: transform 0.2s;
+}
+
+.container-fluid-bestsellers-items #container-fluid-product-item {
+    width: 100%;
+}
+
+.container-fluid-bestsellers-items #container-fluid-product-item img:hover {
+    transform: scale(1.1);
+}
+
+.container-fluid-bestsellers-items .container-fluid-introduction {
+    color: rgb(3, 3, 3);
+    align-self: flex-start;
+    text-align: justify;
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+
+}
+
+.container-fluid-bestsellers-items .container-fluid-introduction #text-intro h2 {
+    font-size: 1.2em;
+}
+
+.container-fluid-bestsellers-items .container-fluid-introduction #button-link {
+    width: 40vw;
+    height: auto;
+    border-radius: 45px;
+    background-color: rgb(12, 104, 122);
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.container-fluid-bestsellers-items .container-fluid-introduction #button-link a {
+    color: rgb(251, 251, 251);
+}
+
+.container-fluid-bestsellers-items .container-fluid-introduction a:link {
+    text-decoration: none;
+}
+
+.line{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+/**FOOTER**/
+footer .container-fluid-footer {
+    width: 100%;
+    height: 25vh;
+    border-style: solid none none none;
+    border-color: aqua;
+    margin-top: 75px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .container-fluid-footer .container-fluid-logo {
+    width: auto;
+    height: auto;
+}
+
+footer .container-fluid-footer .container-fluid-baseboard img {
+    width: 20px;
+    height: 20px;
+}
+
+footer .container-fluid-footer .container-fluid-baseboard #container-fluid-contact-item {
+    display: flex;
+}
+
+footer .container-fluid-footer .container-fluid-baseboard #container-fluid-socialmedia-item {
+    display: flex;
+}
